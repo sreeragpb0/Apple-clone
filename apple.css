@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: rgb(235, 235, 235);
+}
+.container{
+width:100%;
+height: 300vh;
+background: rgb(233, 233, 233);
+}
+.header{
+    width:inherit;
+    height: 44px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.92;
+}
+.navbar{
+    width: 80%;
+    height: inherit;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+
+}
+.icon-btn{
+    background: transparent;
+    color: rgb(211, 211, 211);
+    border: solid 1px transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.icon-btn:hover{
+    color: white;
+}
+.nav-icons{
+    width: 36px;
+    height: 30px;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+.store{
+    width: 64px;
+    height: 30px;
+}
+.mac{
+    width: 44px;
+    height: 30px;
+}
+.ipad{
+    width: 48px;
+    height: 30px;
+}
+.iphone{
+    width: 70px;
+    height: 30px;
+}
+.watch{
+    width: 72px;
+    height: 30px;
+}
+.tv{
+    width: 30px;
+    height: 30px;
+}
+.music{
+    width: 54px;
+    height: 30px;
+}
+.support{
+    width: 80px;
+    height: 30px;
+}
+.search-icon{
+    width: 36px;
+    height: 30px;
+}
+.bag-icon{
+    width: 36px;
+    height: 30px;
+}
+.pic1{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    align-items: center;
+    z-index: -1;
+    height: 1013px;
+    background-image: url(https://www.apple.com/v/home/he/images/overview/hero/hero__x15fcac9fw2q_large.jpg);
+}
+.text-h1{
+    width: 50%;
+    height: 100px;
+    margin-left:px;
+    margin-top: 65px;
+    font-weight: bolder;
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;  
+}
+.text-h3{
+    width: 40%;
+    height: 200px;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    font-family:sans-serif;
+}
+.watch-event-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 2px white;
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    margin-top:-20px
+}
+.watch-event{
+    width: 250px;
+    height:100px;
+    
+}
+.watch-event-btn:hover{
+    background: white;
+    color: black;
+}
+.black{
+    color: rgb(0, 0, 0);
+}
+.img-phn{
+    width:40%;
+    height: 200px;
+    border-radius: 20px;
+}
+.pic2{
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    height: 1000px;
+}
+.learn-more{
+    color:black;
+    border-color: black;
+    margin-top: 40px;
+    margin-left: 70px;
+    width:150px
+}
+.view-pricing{
+    color: black;
+    border-color: black;
+    width: 160px;
+}
+.view-pricing:hover, .learn-more:hover{
+    background: black;
+    color: white;
+}
+.pic3{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-shrink: inherit;
+    width:100%;
+    height: 1000px;
+    z-index: -1;
+    background-image: url(https://www.apple.com/in/home/images/september-takeover/iphone-13/iphone_13__do56puty4e4i_large.jpg);
+}
+.pic3-m{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.pic3-btn{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: -90px;
+    background: transparent;
+    color: white;
+    margin: 50px;
+}
+
+
+.white{
+    color: white;
+}
+.h1{
+    margin-left: 100px;
+    margin: 60px;      
+}
+.h3{
+    margin:-70px;
+    margin-top: 0px;
+}
+
+.rules{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-evenly
+}     
+p{
+    margin-top: 400px;
+    margin-left: 250px;
+    color: rgb(146, 146, 146)
+}                                                                                                                      ;
